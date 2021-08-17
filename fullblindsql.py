@@ -15,7 +15,7 @@ if (len(sys.argv) != 2):
 
 
 baseURL = "http://" + sys.argv[1] + "/admin/exists.php?id="
-phpsessid = sys.argv[1]
+phpsessid = sys.argv[1]  # optional, not needed for this demo
 
 headers = {"Cookie": "PHPSESSID=" + phpsessid}
 
